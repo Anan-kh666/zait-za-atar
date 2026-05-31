@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { type Locale } from "@/i18n/config";
 import { type Dictionary } from "@/i18n/get-dictionary";
+import { LanguageSwitcher } from "@/components/language-switcher";
 
 export function Navbar({
   lang,
@@ -9,7 +10,6 @@ export function Navbar({
   lang: Locale;
   dict: Dictionary["nav"];
 }) {
-  const other = lang === "ar" ? "en" : "ar";
   const links = [
     { href: `/${lang}#menu`, label: dict.menu },
     { href: `/${lang}#about`, label: dict.about },
@@ -40,12 +40,7 @@ export function Navbar({
         </div>
 
         <div className="flex items-center gap-4">
-          <Link
-            href={`/${other}`}
-            className="text-sm font-medium text-ink/70 transition hover:text-ink"
-          >
-            {other === "ar" ? "العربية" : "EN"}
-          </Link>
+          <LanguageSwitcher lang={lang} />
           <Link
             href={`/${lang}#location`}
             className="rounded-full bg-ink px-5 py-2.5 text-sm font-medium text-cream transition hover:bg-olive-deep"

@@ -7,6 +7,7 @@ import { About } from "@/components/about";
 import { Gallery } from "@/components/gallery";
 import { Location } from "@/components/location";
 import { Footer } from "@/components/footer";
+import { ChatWidget } from "@/components/chat-widget";
 
 export default async function Home({
   params,
@@ -27,6 +28,7 @@ export default async function Home({
         <Location lang={lang} dict={dict.location} />
       </main>
       <Footer lang={lang} nav={dict.nav} dict={dict.footer} />
+      <ChatWidget lang={lang} />
     </>
   );
 }
