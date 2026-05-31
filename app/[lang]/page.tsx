@@ -12,9 +12,10 @@ import { ChatWidget } from "@/components/chat-widget";
 export default async function Home({
   params,
 }: {
-  params: Promise<{ lang: Locale }>;
+  params: Promise<{ lang: string }>;
 }) {
-  const { lang } = await params;
+  const { lang: rawLang } = await params;
+  const lang = rawLang as Locale;
   const dict = await getDictionary(lang);
 
   return (

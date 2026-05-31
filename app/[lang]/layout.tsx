@@ -6,7 +6,7 @@ import {
   IBM_Plex_Sans_Arabic,
 } from "next/font/google";
 import "../globals.css";
-import { i18n, type Locale } from "@/i18n/config";
+import { i18n } from "@/i18n/config";
 
 const displayLatin = Cormorant_Garamond({
   subsets: ["latin"],
@@ -44,7 +44,7 @@ export default async function RootLayout({
   params,
 }: {
   children: React.ReactNode;
-  params: Promise<{ lang: Locale }>;
+  params: Promise<{ lang: string }>;
 }) {
   const { lang } = await params;
   const dir = lang === "ar" ? "rtl" : "ltr";
