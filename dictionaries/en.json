@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "menu": "Menu",
+    "about": "Our Story",
+    "gallery": "Gallery",
+    "location": "Visit",
+    "reserve": "Reserve a Table"
+  },
+  "hero": {
+    "eyebrow": "Dubai · Levantine Kitchen",
+    "title": "Zait & Za'atar",
+    "subtitle": "Where olive oil meets za'atar — a modern Levantine table in the heart of Dubai.",
+    "ctaPrimary": "Reserve a Table",
+    "ctaSecondary": "Explore the Menu"
+  },
+  "menu": {
+    "eyebrow": "The Table",
+    "title": "Signature Dishes",
+    "subtitle": "A handpicked selection from our kitchen — rooted in Levantine tradition, plated for Dubai.",
+    "currency": "AED",
+    "items": [
+      { "name": "Man'oushe Za'atar", "description": "Wood-fired flatbread, wild thyme, olive oil, sesame.", "price": "32" },
+      { "name": "Muhammara", "description": "Roasted red pepper, walnut, pomegranate molasses.", "price": "38" },
+      { "name": "Fattoush", "description": "Crisp greens, sumac, toasted bread, mint, citrus.", "price": "42" },
+      { "name": "Mixed Grill", "description": "Lamb kofta, shish taouk, charcoal-grilled, garlic toum.", "price": "115" },
+      { "name": "Makdous", "description": "Cured baby eggplant, walnut, chilli, olive oil.", "price": "36" },
+      { "name": "Knafeh Nabulsiyeh", "description": "Warm cheese, semolina, orange-blossom syrup.", "price": "45" }
+    ]
+  }
+  ,
+  "about": {
+    "eyebrow": "Our Story",
+    "title": "Rooted in the Levant, at home in Dubai",
+    "paragraphs": [
+      "Zait & Za'atar began with a simple table and the scent of wild thyme — recipes carried across generations from the hills of the Levant.",
+      "Today, in the heart of Dubai, we plate that heritage with intention: charcoal-fired, olive-oil rich, and unmistakably warm."
+    ],
+    "quote": "Every dish begins with two things — good oil, and good company.",
+    "quoteAuthor": "The Founders"
+  }
+  ,
+  "gallery": {
+    "eyebrow": "The Space",
+    "title": "A Levantine table, Dubai light",
+    "subtitle": "Warm stone, charcoal smoke, and the colours of the souk."
+  }
+  ,
+  "location": {
+    "eyebrow": "Visit",
+    "title": "Find us in Dubai",
+    "addressLabel": "Address",
+    "address": "City Walk, Al Wasl, Dubai, UAE",
+    "hoursLabel": "Hours",
+    "hours": ["Sun – Thu · 12:00 – 23:00", "Fri – Sat · 12:00 – 01:00"],
+    "phoneLabel": "Reservations",
+    "phone": "+971 4 000 0000",
+    "cta": "Book a Table"
+  },
+  "footer": {
+    "tagline": "Levantine kitchen in the heart of Dubai.",
+    "rights": "All rights reserved."
+  }
+}
