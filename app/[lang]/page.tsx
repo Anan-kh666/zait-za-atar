@@ -8,6 +8,7 @@ import { Gallery } from "@/components/gallery";
 import { Location } from "@/components/location";
 import { Footer } from "@/components/footer";
 import { ChatWidget } from "@/components/chat-widget";
+import { ScrollReveal } from "@/components/scroll-reveal";
 
 export default async function Home({
   params,
@@ -23,13 +24,14 @@ export default async function Home({
       <Navbar lang={lang} dict={dict.nav} />
       <main>
         <Hero lang={lang} dict={dict.hero} />
-        <MenuHighlights dict={dict.menu} />
-        <About dict={dict.about} />
-        <Gallery dict={dict.gallery} />
-        <Location lang={lang} dict={dict.location} />
+        <div className="reveal"><MenuHighlights dict={dict.menu} /></div>
+        <div className="reveal"><About dict={dict.about} /></div>
+        <div className="reveal"><Gallery dict={dict.gallery} /></div>
+        <div className="reveal"><Location lang={lang} dict={dict.location} /></div>
       </main>
       <Footer lang={lang} nav={dict.nav} dict={dict.footer} />
       <ChatWidget lang={lang} />
+      <ScrollReveal />
     </>
   );
 }

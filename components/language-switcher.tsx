@@ -17,7 +17,7 @@ export function LanguageSwitcher({ lang }: { lang: Locale }) {
     <Link
       href={href}
       hrefLang={other}
-      className="text-sm font-medium text-ink/70 transition hover:text-ink"
+      className="text-sm font-medium text-cream/65 transition hover:text-cream"
     >
       {other === "ar" ? "العربية" : "EN"}
     </Link>
