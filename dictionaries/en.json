@@ -19,12 +19,20 @@
     "subtitle": "A handpicked selection from our kitchen — rooted in Levantine tradition, plated for Dubai.",
     "currency": "AED",
     "items": [
-      { "name": "Man'oushe Za'atar", "description": "Wood-fired flatbread, wild thyme, olive oil, sesame.", "price": "32" },
-      { "name": "Muhammara", "description": "Roasted red pepper, walnut, pomegranate molasses.", "price": "38" },
-      { "name": "Fattoush", "description": "Crisp greens, sumac, toasted bread, mint, citrus.", "price": "42" },
-      { "name": "Mixed Grill", "description": "Lamb kofta, shish taouk, charcoal-grilled, garlic toum.", "price": "115" },
-      { "name": "Makdous", "description": "Cured baby eggplant, walnut, chilli, olive oil.", "price": "36" },
-      { "name": "Knafeh Nabulsiyeh", "description": "Warm cheese, semolina, orange-blossom syrup.", "price": "45" }
+      { "name": "Hummus", "description": "Mezze", "price": "15" },
+      { "name": "Mutabbal", "description": "Mezze", "price": "15" },
+      { "name": "Fattoush", "description": "Mezze", "price": "15" },
+      { "name": "Mixed Grills", "description": "Grills", "price": "55" },
+      { "name": "Shish Tawook", "description": "Grills", "price": "58" },
+      { "name": "Mansaf", "description": "Mains", "price": "32" },
+      { "name": "Kabsa", "description": "Mains", "price": "34" },
+      { "name": "Shawarma", "description": "Sandwiches", "price": "24" },
+      { "name": "Falafel", "description": "Sandwiches", "price": "22" },
+      { "name": "Kunafah", "description": "Desserts", "price": "18" },
+      { "name": "Halawa el Jibn", "description": "Desserts", "price": "16" },
+      { "name": "Mint Lemonade", "description": "Drinks", "price": "9" },
+      { "name": "Jallab", "description": "Drinks", "price": "8" },
+      { "name": "Arabic Coffee", "description": "Drinks", "price": "6" }
     ]
   }
   ,

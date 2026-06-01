@@ -19,12 +19,20 @@
     "subtitle": "مختارات من مطبخنا — متجذّرة في التراث الشامي، مقدّمة بروح دبي.",
     "currency": "د.إ",
     "items": [
-      { "name": "منقوشة زعتر", "description": "خبز على الحطب، زعتر بري، زيت زيتون، سمسم.", "price": "32" },
-      { "name": "محمّرة", "description": "فليفلة حمراء مشوية، جوز، دبس رمان.", "price": "38" },
-      { "name": "فتوش", "description": "خضار مقرمشة، سمّاق، خبز محمّص، نعناع، حمضيات.", "price": "42" },
-      { "name": "مشاوي مشكّلة", "description": "كفتة غنم، شيش طاووق، مشوية على الفحم، ثوم.", "price": "115" },
-      { "name": "مكدوس", "description": "باذنجان صغير، جوز، فلفل، زيت زيتون.", "price": "36" },
-      { "name": "كنافة نابلسية", "description": "جبنة دافئة، سميد، قطر بماء الزهر.", "price": "45" }
+      { "name": "حمص", "description": "مقبلات", "price": "15" },
+      { "name": "متبل", "description": "مقبلات", "price": "15" },
+      { "name": "فتوش", "description": "مقبلات", "price": "15" },
+      { "name": "مشكل مشاوي", "description": "مشاوي", "price": "55" },
+      { "name": "شيش طاووق", "description": "مشاوي", "price": "58" },
+      { "name": "منسف", "description": "الطبق الرئيسي", "price": "32" },
+      { "name": "كبسة", "description": "الطبق الرئيسي", "price": "34" },
+      { "name": "شاورما", "description": "لفات", "price": "24" },
+      { "name": "فلافل", "description": "لفات", "price": "22" },
+      { "name": "كنافة", "description": "حلويات", "price": "18" },
+      { "name": "حلاوة الجبن", "description": "حلويات", "price": "16" },
+      { "name": "ليموناضة", "description": "مشروبات", "price": "9" },
+      { "name": "جلاب", "description": "مشروبات", "price": "8" },
+      { "name": "قهوة عربية", "description": "مشروبات", "price": "6" }
     ]
   }
   ,
